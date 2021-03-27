@@ -1,0 +1,5 @@
+n=int(input())
+l1=map(int,input().split(" "))
+l2=list(l1)
+l2.reverse()
+print(" ".join(map(str,l2)))
